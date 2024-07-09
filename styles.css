@@ -97,6 +97,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #0d1321;
+    margin-bottom: 30px;
 }
 .main-cart{
     display: flex;
@@ -136,4 +137,36 @@ body{
 .middle-cart{
     flex-direction: row-reverse;
     background-image: linear-gradient(90.00deg,#ffffff00 , #ffffff 100%);
+}
+.my-inspiration{
+    width: 1140px;
+    height: 777px;
+    
+    margin: 88px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+}
+.my-ins-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.my-ins-desc{
+    font-size: 16px;
+    font-weight: 400;
+}
+.video-box{
+    width: 1140px;
+
+    border: 1px solid #8f8f8f95;
+    border-radius: 16px;
+    margin-top: 24px;
+    padding: 20px;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
 }
