@@ -64,6 +64,7 @@ body{
 .banner-desc{
     font-size: 16px;
     font-weight: 400;
+    color: #0d1321;
 }
 .contact-btn{
     font-size: 20px;
@@ -72,4 +73,67 @@ body{
     padding: 21px 24px;
     border-radius: 8px;
 
+}
+.why-web-dev{
+    width: 1140px;
+    height: 1395px;
+    margin: 50px auto;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: #0d132105;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+   
+}
+.main-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.main-desc{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0d1321;
+}
+.main-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(90.00deg, #ffffff,#ffffff00 100%);
+}
+.main-cart-title{
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+.main-cart-desc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+    
+}
+.learn-btn{
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #0d1321;
+    padding: 12px 20px;
+    color: #0d1321;
+}
+.main-cart-leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.middle-cart{
+    flex-direction: row-reverse;
+    background-image: linear-gradient(90.00deg,#ffffff00 , #ffffff 100%);
 }
